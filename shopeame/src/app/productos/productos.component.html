@@ -1,0 +1,10 @@
+<div class="card" >
+    <h3>Lista de productos</h3>
+    <div class="productos" *ngFor="let producto of productos" >
+        <h4>Producto {{producto.name}} Precio {{producto.price}} </h4>
+        <p>Descripcion {{producto.description}} </p>
+        <p>Identificador {{producto.id}} </p>
+        <img  [src]="producto.image" [alt]="producto.name" >
+        <h6> Rates {{producto.stars}} </h6>
+    </div>
+</div>
