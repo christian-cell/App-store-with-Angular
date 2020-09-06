@@ -1,0 +1,1 @@
+# App-store-with-Angular , the App is in shopeame-proyect ,don't forget to write npm install before npm start the API i used for this exercise is this one :"https://my-json-server.typicode.com/franlindebl/shopeame-api-v2/products"
