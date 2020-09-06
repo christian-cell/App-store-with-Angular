@@ -1,0 +1,39 @@
+<div class="form-main-container" >
+    <div class="form-container" >
+        <h2>Creación/edición de productos</h2>
+        <form class="form" [formGroup]="formGroupManagementPage" >
+    
+            <div class="formGroup" >
+                <label for="name">Name</label>
+                <input type="text" formControlName="name">
+            </div>
+        
+            <div class="formGroup" >
+                <label for="description">Description</label>
+                <input type="text" formControlName="description">
+        
+            </div>
+        
+            <div class="formGroup" >
+                <label for="price">Price</label>
+                <input type="number" formControlName="price">
+        
+            </div>
+        
+            <div class="formGroup" >
+                <label for="image">Image</label>
+                <input type="text" formControlName="image">
+        
+            </div>
+        
+            <div class="formGroup" >
+                <label for="stars">Stars</label>
+                <input type="number" formControlName="stars">
+        
+            </div>
+        
+            <button class="save" (click)="addProduct()" >Save</button>
+        
+        </form>
+    </div>
+</div>
